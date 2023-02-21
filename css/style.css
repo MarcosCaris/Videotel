@@ -14,8 +14,7 @@ header {
     padding: 5px 2%;
     background-color: #02020285;
     position: sticky;
-    top: 0px;
-    height: 15%;
+    height: auto;
     z-index: 50000;
     
 }
@@ -48,13 +47,23 @@ header {
     }
 }
 @media (max-width:991px){
+    header{
+        min-height: 8%;
+        background-color: #02020254;
+        background-image: linear-gradient(80deg,#b566ffb9,#6131af67);
+        background-image: -moz-linear-gradient;
+        background-image: -webkit-linear-gradient;
+        border-bottom: 2px solid white;
+
+    }
     .nav-p{
-        background-color: #020202af;
+        background-color: #0202021e;
         text-align: start;
         padding: 0;
-        margin-left: 60px;
-        padding-left: 10px;
-        margin-right: 100px;
+        margin-left: 80px;
+        padding-left: 20px;
+        margin-right: 70px;
+        padding-right: 20px;
     }
     .nav-p{
         text-align: start;
@@ -62,7 +71,7 @@ header {
     .navbar-toggler {
         width: 20px;
         height: 20px;
-        margin-top: 60px;
+        padding-top: 9%;
         position: absolute;
         transition: .5s ease-in-out;
     }
@@ -83,7 +92,7 @@ header {
         position: absolute;
         height: 3px;
         width: 100%;
-        background: rgb(243, 112, 112);
+        background: rgb(255, 255, 255);
         border-radius: 1px;
         opacity: 1;
         left: 0;
@@ -137,7 +146,7 @@ header {
     background-position: 1px;
     background-attachment: fixed;
 }
-.carousel-inner{
+.carousel__main{
     height: 50%;
     width: 100%;
     display: flex;
@@ -265,12 +274,16 @@ header {
     .contenedor__productos__index{
         padding-top: 0%;
         padding-bottom: 50%;
-        width: 110%;
-        padding-left: 5%;
+        width: 100%;
+        padding-left: 8%;
+        padding-right: 8%;
     }
     #main__inicio__productos{
         height: 260%;
     }
+    .row {
+        --bs-gutter-x: 0rem;
+}
 }
 
 /*MAIN CONTACTO*/
@@ -406,23 +419,22 @@ bottom: 5%;
     font-size: 25px;
 }
 #promociones__productos__superior{
-    height: 70%;
+    height: 74%;
     width: 99%;
 }
 
 .contenedor__productos__promociones{
-    width: 100%;
-    height: 120%;
-    padding-top: 8%;
-    padding-left: 15%;
-    padding-right: 15%;
+    width: 21%;
+    height: 80%;
+    padding: 0%;
+    margin-left: 39.6%;
+    margin-top: 3%;
 }
-
 #main__promociones__banner{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30%;
+    height: 35%;
     background-image: url(../imagenes/promociones__banner.jpg);
     background-attachment: fixed;
     background-position: 1px;
@@ -432,32 +444,73 @@ bottom: 5%;
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: 15%;
+    height: 25%;
     font-family: 'Poppins', sans-serif;
     color: aliceblue; 
     background-color: lightseagreen;
-    font-size: 20px;
-    margin: 2%  0% 2% 0%;
+    margin: 0%  0% 0% 0%;
+}
+#main__promociones__divisor{
+    height: 70%;
+    margin-bottom: 20%;
+}
+#main__promociones__contacto h2{
+    font-size: 230%;
 }
 #main__promociones__video{
     display: flex;
-    height: 70%;
-    width: 100%;
+    height: 90%;
 }
-#main__promociones__video video{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-#main__promociones__divisor h2{
 
-    padding-bottom: 1%;
-}
+#main__promociones__video video{
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}   
 #promociones__productos__inferior{
-    height: 75%;
+    height: 74%;
     width: 99%;
 }
-
+.carousel__promociones{
+    height: 100%;
+}
+/*Media Query - Mobile*/
+@media (max-width:576px){
+    .contenedor__productos__promociones{
+        width: 80%;
+        height: 90%;
+        margin-left: 10%;
+        padding:5%
+    }
+    #promociones__productos__superior{
+        height: 90%;
+        width: 99%;
+    }
+    #promociones__productos__inferior{
+        height: 75%;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    #promociones__productos__superior{
+        height: 70%;
+        width: 100%;
+    }
+    #main__promociones__banner{
+        height: 25%;
+        background-size: cover;  
+        background-attachment: scroll;      
+    }
+    #main__promociones__contacto h2{
+        font-size: 120%;
+        padding: 3%;
+    }
+    #main__promociones__video video{
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+}
 
 /*MAIN SOBRE-NOSOTROS*/
 #main__sobrenosotros__banner{
@@ -627,9 +680,7 @@ height: 30%;
 background-color: #0C343D;
 padding: 0% 3% 0% 2%;
 }
-.footer__logo{
-    width: 100%;
-}
+
 .footer__contacto{
     display: flex;
     flex-flow: column wrap;
@@ -687,7 +738,8 @@ padding: 0% 3% 0% 2%;
     justify-content: center;
     align-items: flex-start;
     color: aliceblue;
-    margin-top: 2%;
+    padding-top: 1%;
+
 }
 .footer__derechos h2 {
     padding-left: 20%;
@@ -698,6 +750,14 @@ padding: 0% 3% 0% 2%;
 }
 .footer__logo__container{
     width: 13%;
+}
+.footer__logo{
+    width: 100%;
+}
+.footer__autor {
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
 }
 /*Media Query - Mobile*/
 @media (max-width:576px){
@@ -745,8 +805,10 @@ padding: 0% 3% 0% 2%;
     .footer__derechos h2 {
         padding-top: 5%;
         padding-left:0%;
+        
     }
     .footer__derechos p{
         text-align: center;
+        padding: 0;
     }
 }

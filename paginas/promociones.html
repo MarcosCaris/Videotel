@@ -50,42 +50,55 @@
                 <h1>Enterate de nuestras Promociones</h1>
             </div>
             <section id="promociones__productos__superior">
-                <div class="container-flex">
-                    <div class="row">
-                        <div class="col-12 col-md-4">
-                            <div class="contenedor__productos__promociones">
-                                <div class="productos__tarjeta">
-                                    <img src="../imagenes/tarjeta__hbo.jpg" alt="" class="tarjeta-producto__imagen">
-                                    <h3 class="tarjeta-producto__titulo">HBO</h3>
-                                    <p class="tarjeta-producto__descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <button class="tarjeta-producto__boton"><a href="./paginas/promociones.html">Comprar</a></button>
-                                </div>
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner carousel__promociones">
+                      <div class="carousel-item active">
+                        <div class="contenedor__productos__promociones">
+                            <div class="productos__tarjeta">
+                                <img src="../imagenes/tarjeta__hbo.jpg" alt="" class="tarjeta-producto__imagen">
+                                <h3 class="tarjeta-producto__titulo">HBO</h3>
+                                <p class="tarjeta-producto__descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button class="tarjeta-producto__boton"><a href="./promociones.html">Comprar</a></button>
                             </div>
                         </div>
-                        <div class="col-12 col-md-4">
-                            <div class="contenedor__productos__promociones">
-                                <div class="productos__tarjeta">
-                                    <img src="../imagenes/tarjeta__futbol.jpg" alt="" class="tarjeta-producto__imagen">
-                                    <h3 class="tarjeta-producto__titulo">Pack Futbol</h3>
-                                    <p class="tarjeta-producto__descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <button class="tarjeta-producto__boton"><a href="./paginas/promociones.html">Comprar</a></button>
-                                </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="contenedor__productos__promociones">
+                            <div class="productos__tarjeta">
+                                <img src="../imagenes/tarjeta__futbol.jpg" alt="" class="tarjeta-producto__imagen">
+                                <h3 class="tarjeta-producto__titulo">Pack Futbol</h3>
+                                <p class="tarjeta-producto__descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button class="tarjeta-producto__boton"><a href="./promociones.html">Comprar</a></button>
                             </div>
                         </div>
-                        <div class="col-12 col-md-4">
-                            <div class="contenedor__productos__promociones">
-                                <div class="productos__tarjeta">
-                                    <img src="../imagenes/tarjeta__internet.jpg" alt="" class="tarjeta-producto__imagen">
-                                    <h3 class="tarjeta-producto__titulo">Internet</h3>
-                                    <p class="tarjeta-producto__descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <button class="tarjeta-producto__boton"><a href="./paginas/promociones.html">Comprar</a></button>
-                                </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="contenedor__productos__promociones">
+                            <div class="productos__tarjeta">
+                                <img src="../imagenes/tarjeta__internet.jpg" alt="" class="tarjeta-producto__imagen">
+                                <h3 class="tarjeta-producto__titulo">Internet</h3>
+                                <p class="tarjeta-producto__descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button class="tarjeta-producto__boton"><a href="./promociones.html">Comprar</a></button>
                             </div>
                         </div>
-                    </div>  
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev boton__promociones" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </section>
-            <section>
+            <section id="main__promociones__divisor">
                 <div id="main__promociones__banner"></div>
                 <div id="main__promociones__contacto">
                     <h2>Por cualquiera de nuestras promos comunicate a 0810-777-3330</h2>
@@ -95,40 +108,53 @@
                  </div>
             </section>
             <section id="promociones__productos__inferior">
-                <div class="container-flex">
-                    <div class="row">
-                        <div class="col-12 col-md-4">
-                            <div class="contenedor__productos__promociones">
-                                <div class="productos__tarjeta">
-                                    <img src="../imagenes/tarjeta__hbo.jpg" alt="" class="tarjeta-producto__imagen">
-                                    <h3 class="tarjeta-producto__titulo">HBO</h3>
-                                    <p class="tarjeta-producto__descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <button class="tarjeta-producto__boton"><a href="./paginas/promociones.html">Comprar</a></button>
-                                 </div>
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner carousel__promociones">
+                      <div class="carousel-item active">
+                        <div class="contenedor__productos__promociones">
+                            <div class="productos__tarjeta">
+                                <img src="../imagenes/tarjeta__hbo.jpg" alt="" class="tarjeta-producto__imagen">
+                                <h3 class="tarjeta-producto__titulo">HBO</h3>
+                                <p class="tarjeta-producto__descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button class="tarjeta-producto__boton"><a href="./promociones.html">Comprar</a></button>
                             </div>
                         </div>
-                    <div class="col-12 col-md-4">
+                      </div>
+                      <div class="carousel-item">
                         <div class="contenedor__productos__promociones">
                             <div class="productos__tarjeta">
                                 <img src="../imagenes/tarjeta__futbol.jpg" alt="" class="tarjeta-producto__imagen">
                                 <h3 class="tarjeta-producto__titulo">Pack Futbol</h3>
                                 <p class="tarjeta-producto__descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                <button class="tarjeta-producto__boton"><a href="./paginas/promociones.html">Comprar</a></button>
+                                <button class="tarjeta-producto__boton"><a href="./promociones.html">Comprar</a></button>
                             </div>
                         </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="contenedor__productos__promociones">
+                            <div class="productos__tarjeta">
+                                <img src="../imagenes/tarjeta__internet.jpg" alt="" class="tarjeta-producto__imagen">
+                                <h3 class="tarjeta-producto__titulo">Internet</h3>
+                                <p class="tarjeta-producto__descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button class="tarjeta-producto__boton"><a href="./promociones.html">Comprar</a></button>
+                            </div>
+                        </div>
+                      </div>
                     </div>
-                        <div class="col-12 col-md-4">
-                            <div class="contenedor__productos__promociones">
-                                <div class="productos__tarjeta">
-                                    <img src="../imagenes/tarjeta__internet.jpg" alt="" class="tarjeta-producto__imagen">
-                                    <h3 class="tarjeta-producto__titulo">Internet</h3>
-                                    <p class="tarjeta-producto__descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <button class="tarjeta-producto__boton"><a href="./paginas/promociones.html">Comprar</a></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>  
-                </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
             </section>
         </main>
         <footer>
@@ -157,7 +183,7 @@
             </div>
             <div class="footer__derechos">
                 <h2>Derechos</h2>
-                <p>@Copyright 2023<br><br> Pagina hecha por <br> <b>Marcos Caris</b><br><br><b>Videotel</b>-Todos los derechos reservados</p>
+                <p>@Copyright 2023<br><br> Pagina hecha por <br> <a href="https://github.com/MarcosCaris" class="footer__autor"><b>Marcos Caris</b></a></p>
             </div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
