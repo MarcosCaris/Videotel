@@ -23,6 +23,18 @@ header {
     z-index: 50000;
     
 }
+.nav-p{
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue; 
+    text-decoration: none;
+    font-size: 140%;
+    letter-spacing: 20%;
+}
+.navbar-bar ul{
+    word-spacing: 50%;
+
+}
+
 .header__nav{
     width: 100%;
     font-size: 130%;
@@ -64,19 +76,20 @@ header {
 }
 
 
+
 /*MAIN INDEX*/
-#main__inicio__animacion{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30%;
+.carousel-inner{
     background-image: url(../imagenes/sutdio.jpg);
     background-position: 1px;
     background-attachment: fixed;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding-right: 5%;
+    padding-left: 5%;
 }
-#main__inicio__animacion img{
-    width: 50%;
-}
+
 #main__inicio__encabezados{
     display: flex;
     flex-flow: column;
@@ -115,7 +128,9 @@ header {
     margin-top: 5%;
     font-family: 'Poppins', sans-serif;
     color: aliceblue; 
-    font-size: 100%;
+}
+.productos__titulo h2{
+    font-size: 260%;
 }
 .contenedor__productos__index{
     width: 100%;
@@ -167,7 +182,39 @@ header {
     text-decoration: none;
     color: #020202;
 }
-
+/*Media Query - Mobile*/
+@media (max-width:576px){
+    .carousel-inner{
+        height: 30%;
+    }
+    #main__inicio__encabezados h1{
+        font-size: 140%;
+    }
+    #main__inicio__encabezados h2{
+        font-size: 120%;
+        margin: 5%;
+        text-align: center;
+        justify-content: center;
+    }
+    #main__inicio__video{
+        height: 40%;
+    }
+    .productos__titulo{
+        height: 10%;
+    }
+    .productos__titulo h2{
+        font-size: 200%;
+    }
+    .contenedor__productos__index{
+        padding-top: 0%;
+        padding-bottom: 50%;
+        width: 110%;
+        padding-left: 5%;
+    }
+    #main__inicio__productos{
+        height: 260%;
+    }
+}
 
 /*MAIN CONTACTO*/
 #main__contacto{
@@ -290,8 +337,7 @@ bottom: 5%;
     height: 37%;
 }
 
-
-/*MAIN promociones*/
+/*MAIN PROMOCIONES*/
 #main__promociones__titulo{
     display: flex;
     text-align: center;
@@ -525,7 +571,7 @@ background-color: #0C343D;
 padding: 0% 3% 0% 2%;
 }
 .footer__logo{
-    width: 13%;
+    width: 100%;
 }
 .footer__contacto{
     display: flex;
@@ -584,6 +630,7 @@ padding: 0% 3% 0% 2%;
     justify-content: center;
     align-items: flex-start;
     color: aliceblue;
+    margin-top: 2%;
 }
 .footer__derechos h2 {
     padding-left: 20%;
@@ -592,4 +639,57 @@ padding: 0% 3% 0% 2%;
     padding: 5% 20% 5% 20%;
     text-align: left;
 }
-
+.footer__logo__container{
+    width: 13%;
+}
+/*Media Query - Mobile*/
+@media (max-width:576px){
+    footer{
+        flex-flow: column;
+        height: 100%;
+        align-items: start;
+    }
+    .footer__logo__container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .footer__logo{
+        width: 30%;
+    }
+    .footer__contacto{
+        flex-flow: column wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .footer__redes{
+        width: 100%;
+    }
+    .footer__redes__titulo{
+        margin: 0% 10% 0% 0%;
+    }
+    .footer__redes__titulo h2{
+        font-size: 100%;
+    }
+    .footer__redes__iconos{
+        margin: 0% 5% 0% 0%;
+    }
+    .footer__redes__texto{
+        height: 100%;
+        justify-content: space-evenly;
+    }
+    .footer__redes__texto p{
+        padding-top: 15%;
+    }
+    .footer__derechos{
+        align-items: center;
+        width: 100%;
+    }
+    .footer__derechos h2 {
+        padding-top: 5%;
+        padding-left:0%;
+    }
+    .footer__derechos p{
+        text-align: center;
+    }
+}
