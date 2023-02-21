@@ -11,18 +11,14 @@ body {
 
 /*HEADER*/
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     padding: 5px 2%;
     background-color: #02020285;
     position: sticky;
-    top: 0px;
-    height: 15%;
+    height: auto;
     z-index: 50000;
     
 }
+<<<<<<< HEAD
 .nav-p{
     font-family: 'Poppins', sans-serif;
     color: aliceblue; 
@@ -39,46 +35,137 @@ header {
     width: 100%;
     font-size: 130%;
     
+=======
+>>>>>>> grids-y-efectos
 
-}
-.header__nav ul{
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-
-}
-.header__nav a, li {
+.nav-p{
     font-family: 'Poppins', sans-serif;
     color: aliceblue; 
     text-decoration: none;
-    font-size: 100%;
-    letter-spacing: 0.5px;
+    font-size: 140%;
+    letter-spacing: 20%;
 }
-.header__nav li{
-    padding: 0% 4.5% 0% 4.5%;
-    font-size: 100%;
-}
-.header__logo{
-    cursor: pointer;
-    width: 7%;
-}
-.header__icons{
-    display: flex;
-    flex-flow: row;
-    width: 10%;
-    height: 50%;
+.navbar-bar ul{
+    word-spacing: 50%;
 
 }
-.header__icons img{
-    width: 100%;
-    height: 100%;
-    padding: 5%;
+.nav-p{
+    padding-left: 100px;
 }
+
+.header__logo{
+    width: 8%;
+
+}
+@media (min-width:991px){
+    header {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media (max-width:991px){
+    header{
+        min-height: 8%;
+        background-color: #02020254;
+        background-image: linear-gradient(80deg,#b566ffb9,#6131af67);
+        background-image: -moz-linear-gradient;
+        background-image: -webkit-linear-gradient;
+        border-bottom: 2px solid white;
+
+    }
+    .nav-p{
+        background-color: #0202021e;
+        text-align: start;
+        padding: 0;
+        margin-left: 80px;
+        padding-left: 20px;
+        margin-right: 70px;
+        padding-right: 20px;
+    }
+    .nav-p{
+        text-align: start;
+    }
+    .navbar-toggler {
+        width: 20px;
+        height: 20px;
+        padding-top: 9%;
+        position: absolute;
+        transition: .5s ease-in-out;
+    }
+    .navbar-toggler,
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus {
+        outline: none;
+        box-shadow: none;
+        border: 0;
+    }
+    .navbar-toggler span{
+        margin: 0;
+        padding: 0;
+    }
+    .toggler-icon{
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        background: rgb(255, 255, 255);
+        border-radius: 1px;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition: .25s ease-in-out;
+    }
+    .middle-bar{
+        margin-top: 0px;
+    }
+    .navbar-toggler .top-bar{
+        margin-top: 0px;
+        transform: rotate(135deg);
+    }
+    .navbar-toggler .middle-bar{
+        opacity: 0;
+        filter: alpha(opacity=0);
+
+    }
+    .navbar-toggler .bottom-bar{
+        margin-top: 0px;
+        transform: rotate(-135deg);
+    }
+    .navbar-toggler.collapsed .top-bar{
+        margin-top: -20px;
+        transform: rotate(0deg);
+    }
+    .navbar-toggler.collapsed .middle-bar{
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    .navbar-toggler.collapsed .bottom-bar{
+        margin-top: 20px;
+        transform: rotate(0deg);
+    }
+    .navbar-toggler.collapsed .toggler-icon{
+        background: white;
+    }
+ 
+    .header__logo{
+        width: 0;
+
+    }
+
+}
+
 
 
 
 /*MAIN INDEX*/
+<<<<<<< HEAD
 .carousel-inner{
+=======
+.inicio__carousel__background{
+>>>>>>> grids-y-efectos
     background-image: url(../imagenes/sutdio.jpg);
     background-position: 1px;
     background-attachment: fixed;
@@ -89,6 +176,18 @@ header {
     padding-right: 5%;
     padding-left: 5%;
 }
+<<<<<<< HEAD
+=======
+.carousel__main{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 5%;
+    padding-left: 5%;
+
+}
+>>>>>>> grids-y-efectos
 
 #main__inicio__encabezados{
     display: flex;
@@ -208,12 +307,24 @@ header {
     .contenedor__productos__index{
         padding-top: 0%;
         padding-bottom: 50%;
+<<<<<<< HEAD
         width: 110%;
         padding-left: 5%;
+=======
+        width: 100%;
+        padding-left: 8%;
+        padding-right: 8%;
+>>>>>>> grids-y-efectos
     }
     #main__inicio__productos{
         height: 260%;
     }
+<<<<<<< HEAD
+=======
+    .row {
+        --bs-gutter-x: 0rem;
+}
+>>>>>>> grids-y-efectos
 }
 
 /*MAIN CONTACTO*/
@@ -349,11 +460,16 @@ bottom: 5%;
     font-size: 25px;
 }
 #promociones__productos__superior{
+<<<<<<< HEAD
     height: 75%;
+=======
+    height: 74%;
+>>>>>>> grids-y-efectos
     width: 99%;
 }
 
 .contenedor__productos__promociones{
+<<<<<<< HEAD
     width: 100%;
     height: 120%;
     padding-top: 8%;
@@ -361,11 +477,23 @@ bottom: 5%;
     padding-right: 15%;
 }
 
+=======
+    width: 21%;
+    height: 80%;
+    padding: 0%;
+    margin-left: 39.6%;
+    margin-top: 3%;
+}
+>>>>>>> grids-y-efectos
 #main__promociones__banner{
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     height: 30%;
+=======
+    height: 35%;
+>>>>>>> grids-y-efectos
     background-image: url(../imagenes/promociones__banner.jpg);
     background-attachment: fixed;
     background-position: 1px;
@@ -375,18 +503,22 @@ bottom: 5%;
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: 15%;
+    height: 25%;
     font-family: 'Poppins', sans-serif;
     color: aliceblue; 
     background-color: lightseagreen;
-    font-size: 20px;
-    margin: 2%  0% 2% 0%;
+    margin: 0%  0% 0% 0%;
 }
+<<<<<<< HEAD
 #main__promociones__video{
     display: flex;
+=======
+#main__promociones__divisor{
+>>>>>>> grids-y-efectos
     height: 70%;
-    width: 100%;
+    margin-bottom: 20%;
 }
+<<<<<<< HEAD
 #main__promociones__video video{
     width: 100%;
     height: 100%;
@@ -399,8 +531,69 @@ bottom: 5%;
 #promociones__productos__inferior{
     height: 75%;
     width: 99%;
+=======
+#main__promociones__contacto h2{
+    font-size: 230%;
+}
+#main__promociones__video{
+    display: flex;
+    height: 90%;
+>>>>>>> grids-y-efectos
 }
 
+#main__promociones__video video{
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}   
+#promociones__productos__inferior{
+    height: 74%;
+    width: 99%;
+}
+.carousel__promociones{
+    height: 100%;
+}
+/*Media Query - Mobile*/
+@media (max-width:576px){
+    .contenedor__productos__promociones{
+        width: 80%;
+        height: 90%;
+        margin-left: 10%;
+        padding:5%
+    }
+    #promociones__productos__superior{
+        height: 90%;
+        width: 99%;
+    }
+    #promociones__productos__inferior{
+        height: 75%;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    #promociones__productos__superior{
+        height: 70%;
+        width: 100%;
+    }
+    #main__promociones__banner{
+        height: 25%;
+        background-size: cover;  
+        background-attachment: scroll;      
+    }
+    #main__promociones__contacto h2{
+        font-size: 120%;
+        padding: 3%;
+    }
+    #main__promociones__video video{
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+    #main__promociones__divisor{
+        height: 70%;
+        margin-bottom: 5%;
+    }
+}
 
 /*MAIN SOBRE-NOSOTROS*/
 #main__sobrenosotros__banner{
@@ -570,9 +763,13 @@ height: 30%;
 background-color: #0C343D;
 padding: 0% 3% 0% 2%;
 }
+<<<<<<< HEAD
 .footer__logo{
     width: 100%;
 }
+=======
+
+>>>>>>> grids-y-efectos
 .footer__contacto{
     display: flex;
     flex-flow: column wrap;
@@ -630,7 +827,12 @@ padding: 0% 3% 0% 2%;
     justify-content: center;
     align-items: flex-start;
     color: aliceblue;
+<<<<<<< HEAD
     margin-top: 2%;
+=======
+    padding-top: 1%;
+
+>>>>>>> grids-y-efectos
 }
 .footer__derechos h2 {
     padding-left: 20%;
@@ -642,6 +844,17 @@ padding: 0% 3% 0% 2%;
 .footer__logo__container{
     width: 13%;
 }
+<<<<<<< HEAD
+=======
+.footer__logo{
+    width: 100%;
+}
+.footer__autor {
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+>>>>>>> grids-y-efectos
 /*Media Query - Mobile*/
 @media (max-width:576px){
     footer{
@@ -688,8 +901,16 @@ padding: 0% 3% 0% 2%;
     .footer__derechos h2 {
         padding-top: 5%;
         padding-left:0%;
+<<<<<<< HEAD
     }
     .footer__derechos p{
         text-align: center;
+=======
+        
+    }
+    .footer__derechos p{
+        text-align: center;
+        padding: 0;
+>>>>>>> grids-y-efectos
     }
 }
