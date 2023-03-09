@@ -50,8 +50,6 @@ header {
         min-height: 8%;
         background-color: #02020254;
         background-image: linear-gradient(80deg,#b566ffb9,#6131af67);
-        background-image: -moz-linear-gradient;
-        background-image: -webkit-linear-gradient;
         border-bottom: 2px solid white;
 
     }
