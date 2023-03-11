@@ -54,13 +54,14 @@ header {
 
     }
     .nav-p{
-        background-color: #0202021e;
+        background-color: #0202020e;
         text-align: start;
         padding: 0;
-        margin-left: 80px;
-        padding-left: 20px;
+        margin-left: 2.5rem;
+        padding-left: 7px;
         margin-right: 70px;
         padding-right: 20px;
+        border-radius: 5px;
     }
     .nav-p{
         text-align: start;
@@ -196,8 +197,8 @@ header {
     width: 100%;
     height: 120%;
     padding-top: 8%;
-    padding-left: 15%;
-    padding-right: 14%;
+    padding-left: 20%;
+    padding-right: 09%;
 }
 .productos__tarjeta{
     display: flex;
@@ -205,6 +206,18 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    height: 100%;
+    border: 1px solid white ;
+    padding: 0%;
+    background-color: #020300;
+    border-radius: 8px;
+}
+.productos__tarjeta__index{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
     height: 100%;
     border: 1px solid white ;
     padding: 0%;
@@ -268,14 +281,19 @@ header {
     .contenedor__productos__index{
         padding-top: 0%;
         padding-bottom: 50%;
-        padding-right: 8%;
+        padding-left: 10%;
+        padding-right: 9%;
     }
     #main__inicio__productos{
         height: 260%;
     }
     .row {
         --bs-gutter-x: 0rem;
-}
+    }
+    .productos__tarjeta__index{
+        height: 100%;
+        width: 100%;
+    }
 }
 
 /*MAIN CONTACTO*/
@@ -678,6 +696,36 @@ bottom: 5%;
     #main__sobrenosotros__banner{
         background-position: -20px -500px ;
     }
+    #main__sobrenosotros__divisor{
+        background-image: linear-gradient(10deg,#3d8ffacb,#31b5c7);
+        
+    }
+    #main__sobrenosotros__divisor h2{
+        font-size: 100%;
+        text-align: center;
+        
+    }
+    #main__sobrenosotros__quienes-somos{
+        background-color: #141c30;
+        height: 35%;
+    }
+    #main__sobrenosotros__quienes-somos h2{
+        margin-top: 5%;
+
+    }
+    #main__sobrenosotros__quienes-somos p{
+        text-align: left;
+        font-size: 70%;
+        padding: 5% 0% 5% 3%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    #main__sobrenosotros__historia{
+        flex-flow: column;
+        height: 180%;
+    }
 }
 
 /*MAIN SORTEO*/
@@ -692,7 +740,6 @@ bottom: 5%;
     background-image: url(../imagenes/sorteo__banner.jpg);
 }
 #main__sorteo__titulo {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -714,7 +761,6 @@ bottom: 5%;
     
 }
 #main__sorteo__requisitos {
-
     text-align: left;
     width: 90%;
     flex-flow: column;
@@ -754,6 +800,50 @@ bottom: 5%;
     font-size: 20px;
     overflow-y: scroll;
 }
+/*Media Query - Mobile*/
+@media (max-width:576px){
+    #main__sorteo__titulo{
+        height: 40%;
+
+    }
+    #main__sorteo__titulo h1{
+        font-size: 125%;
+        padding-top: 5%;
+
+    }
+}
+#main__sorteo__imagen{
+    background-size: cover;
+    border-top: white solid 3px;
+    border-bottom: white solid 3px;
+    border-radius: 3px;
+}
+#main__sorteo__requisitos{
+    padding: 0%;
+}
+#main__sorteo__requisitos h2{
+    padding-top: 7%;
+    padding-bottom: 5%;
+    font-size: 160%;
+    font-weight: 600;
+}
+#main__sorteo__requisitos li{
+    font-size: 85%;
+    padding-bottom: 7%;
+}
+#main__sorteo__requisitos li::marker {
+    content: '✓ ';
+    font-size: 1.5em;
+}
+#main__sorteo{
+    background-image: linear-gradient(45deg,#4e4386,#7462ff);
+}
+#main__sorteo__condiciones{
+    background-image: linear-gradient(45deg,#0057a88f,#592b8554);
+    border: rgb(254, 255, 255) solid 2px;
+    border-radius: 8px;
+}
+
 
 
 /*FOOTER*/
