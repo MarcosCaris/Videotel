@@ -1,0 +1,85 @@
+/*Media Query CONTACTO MOBILE*/
+
+@media (max-width:576px) {
+    #main__contacto__titulo h1 {
+      padding-top: 3%;
+      margin-bottom: 0%;
+    }
+    #main__contacto__form {
+      flex-flow: column;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 0%;
+      height: 70rem;
+    }
+    .main__form {
+      width: 21rem;
+      height: 28rem;
+      margin-left: 3%;
+      margin-right: 3%;
+      padding: 3%;
+      margin-bottom: 5%;
+      .main__form__controles {
+        width: 98%;
+      }
+      .main__form__boton {
+        width: 50%;
+        height: 15%;
+        margin-left: 25%;
+      }
+    }
+    #main__contacto__mensajes {
+      width: 100%;
+      padding: 5% 5% 5% 5%;
+      margin: 0%;
+      text-align: center;
+      justify-content: space-around;
+    }
+    .main__mensajes__superior h2 {
+      font-size: 150%;
+      font-weight: bolder;
+      margin-bottom: 5%;
+    }
+    .main__mensajes__superior p {
+      padding: 2%;
+      text-align: left;
+      font-size: 110%;
+      background-color: #02020254;
+      border-radius: 5px;
+    }
+    .main__mensajes__inferior h2 {
+      margin-top: 5%;
+      font-size: 125%;
+      font-weight: bolder;
+      margin-bottom: 6%;
+    }
+    .main__mensajes__inferior p {
+      text-align: center;
+      padding-top: 2%;
+      border-radius: 5px;
+      background-color: #02020254;
+      height: 30%;
+      font-size: 103%;
+    }
+    #main__contacto__iconos {
+      display: flex;
+      justify-content: center;
+      padding-top: 0.7rem;
+    }
+    .main__icono__robot {
+      width: 65%;
+    }
+    .main__icono__logo {
+      width: 22%;
+    }
+    .atencion__banner {
+      flex-flow: column;
+      margin-top: 2%;
+      font-size: 140%;
+      background-size: cover;
+      background-image: url(../imagenes/contacto__banner__mobile.jpg);
+    }
+    #main__contacto__mapa {
+      height: 30%;
+    }
+  }

@@ -1,0 +1,28 @@
+/*HEADER*/
+
+header {
+    padding: 5px 2%;
+    background-color: #02020285;
+    position: sticky;
+    height: auto;
+    z-index: 50000;
+    
+    .nav-p {
+      font-family: $font-family;
+      color: $primary-color; 
+      text-decoration: none;
+      font-size: 140%;
+      letter-spacing: 20%;
+      padding-left: 100px;
+    }
+  
+    .navbar-bar {
+      ul {
+        word-spacing: 50%;
+      }
+    }
+  
+    .header__logo {
+      width: 8%;
+    }
+  }

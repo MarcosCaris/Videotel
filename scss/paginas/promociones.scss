@@ -1,0 +1,75 @@
+/*PROMOCIONES*/
+
+#main__promociones__titulo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-family;
+    color: $primary-color; 
+    margin-top: 3%;
+    font-size: 25px;
+  
+    & h2 {
+      font-size: 230%;
+    }
+  }
+  #promociones__productos__superior {
+    height: 74%;
+    width: 99%;
+  }
+  
+  .contenedor__productos__promociones {
+    width: 21%;
+    height: 80%;
+    padding: 0%;
+    margin-left: 39.6%;
+    margin-top: 3%;
+  }
+  
+  #main__promociones__banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35%;
+    background-image: url(../imagenes/promociones__banner.jpg);
+    background-attachment: fixed;
+    background-position: 1px;
+  }
+  
+  #main__promociones__contacto {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    font-family: $font-family;
+    color: $primary-color; 
+    background-color: lightseagreen;
+    margin: 0% 0% 0% 0%;
+  }
+  
+  #main__promociones__divisor {
+    height: 70%;
+    margin-bottom: 20%;
+  }
+  
+  #main__promociones__video {
+    display: flex;
+    height: 90%;
+  
+    & video {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  
+  #promociones__productos__inferior {
+    height: 74%;
+    width: 99%;
+  }
+  
+  .carousel__promociones {
+    height: 100%;
+  }

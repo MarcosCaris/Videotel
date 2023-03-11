@@ -1,0 +1,43 @@
+/*Media Query INDEX MOBILE*/
+
+@media (max-width:576px) {
+    .carousel-inner {
+      height: 30%;
+    }
+    #main__inicio__encabezados h1 {
+      font-size: 140%;
+    }
+    #main__inicio__encabezados h2 {
+      font-size: 120%;
+      margin: 5%;
+      text-align: center;
+      justify-content: center;
+    }
+    #main__inicio__video {
+      height: 40%;
+    }
+    .productos__titulo {
+      height: 10%;
+    }
+    .productos__titulo h2 {
+      font-size: 200%;
+    }
+
+    #main__inicio__productos .contenedor__productos__index {
+      padding-top: 0%;
+      padding-bottom: 50%;
+      padding-left: 10%;
+      padding-right: 9%;
+      margin: 0%;
+    }
+    #main__inicio__productos {
+      height: 260%;
+    }
+    .row {
+      --bs-gutter-x: 0rem;
+    }
+    #main__inicio__productos .productos__tarjeta__index {
+      height: 100%;
+      width: 100%;
+    }
+  }

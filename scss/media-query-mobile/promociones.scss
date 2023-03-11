@@ -1,0 +1,45 @@
+/*Media Query PRMOCIONES MOBILE*/
+
+@media (max-width:576px){
+    .contenedor__productos__promociones{
+      width: 80%;
+      height: 90%;
+      margin-left: 10%;
+      padding: 5%;
+    }
+    #promociones__productos__superior{
+      height: 90%;
+      width: 99%;
+      #promociones__productos__inferior{
+        height: 75%;
+        width: 100%;
+        margin-bottom: 5%;
+      }
+    }
+    #promociones__productos__superior{
+      height: 70%;
+      width: 100%;
+    }
+    #main__promociones__banner{
+      height: 25%;
+      background-size: cover;
+      background-attachment: scroll;
+    }
+    #main__promociones__contacto{
+      h2{
+        font-size: 120%;
+        padding: 3%;
+      }
+    }
+    #main__promociones__video{
+      video{
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+      }
+    }
+    #main__promociones__divisor{
+      height: 70%;
+      margin-bottom: 5%;
+    }
+  }

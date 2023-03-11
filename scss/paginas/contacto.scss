@@ -1,0 +1,111 @@
+/*CONTACTO*/
+
+#main__contacto__titulo{
+    display: flex;
+    font-family: $font-family;
+    color: $primary-color;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+#main__contacto__form{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height:70%;
+    width: 100%;
+    margin-top: 4%;
+    
+}
+.main__form{
+    width: 45%;
+    height: 95%;
+    padding: 1%;
+    background-image: linear-gradient(45deg,#0b0f2eb9,#2b19478e);
+    border-radius: 5px;
+    margin: 0% 0% 0% 1%;
+}
+.main__form__controles{
+    width: 80%;
+    color: $primary-color;
+    background: #040f0f25;
+    margin-bottom: 6%;
+    margin-top: 1%;
+    padding: 20px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: #40aa9e;
+    font-family: $font-family;
+    font-size: 100%;
+    border-radius: 5px;
+}
+.main__form__boton{
+    width: 30%;
+    padding: 20px;
+    font-family: $font-family;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #62fff2;
+    border-radius: 5px;
+    border-color: #62fff2;
+}
+#main__contacto__mensajes{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    text-align: right;
+    font-family: $font-family;
+    color: $primary-color;
+    margin: 0% 3% 0% 0%;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.main__mensajes__inferior{
+    padding-bottom: 5%;
+    padding-top: 4%;
+    font-size: 19px;
+}
+#main__contacto__iconos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 100%;
+    padding-top: 2%;
+    
+}
+.main__icono__robot{
+    width: 35%;
+    padding-top: 4%;
+}
+.main__icono__logo{
+width: 10%;
+height: 30%;
+position: relative;
+right: 9%;
+bottom: 5%;
+}
+.atencion__banner{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    background-color: lightseagreen;
+    font-family: $font-family;
+    color: $primary-color;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    font-size: 35px;
+    background-image: url(../imagenes/contacto__banner.jpg);
+    background-position: 0px 1000px;
+    margin-top: 5%;
+}
+.banner__numero{
+    font-weight: bold;
+}
+#main__contacto__mapa{
+    width: 100%;
+    height: 37%;
+}
