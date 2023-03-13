@@ -36,14 +36,22 @@ body {
   .productos__tarjeta .tarjeta-producto__boton {
     width: 35%;
     height: 9%;
-    background-color: white;
+    background-image: linear-gradient(30deg, #6265ff, #963bffc9);
     font-family: "Poppins", sans-serif;
-    color: #020202;
     font-weight: bold;
+    border-radius: 5px;
+    border: white solid 2px;
     margin: 5%; }
     .productos__tarjeta .tarjeta-producto__boton a {
       text-decoration: none;
-      color: #020202; }
+      color: #fffbfb; }
+
+@media (max-width: 576px) {
+  .productos__tarjeta .tarjeta-producto__boton {
+    border-radius: 1px;
+    border: white solid 1px;
+    width: 38%;
+    height: 11%; } }
 
 /*HEADER*/
 header {
@@ -144,7 +152,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   height: 30%;
-  background-color: #0C343D;
+  background-color: #020202e5;
   padding: 0% 3% 0% 2%; }
   footer .footer__contacto {
     display: flex;
@@ -398,7 +406,7 @@ footer {
   padding: 1%;
   background-image: linear-gradient(45deg, #0b0f2eb9, #2b19478e);
   border-radius: 5px;
-  margin: 0% 0% 0% 1%; }
+  margin: 0% 0% 0% 3%; }
 
 .main__form__controles {
   width: 80%;
@@ -668,7 +676,7 @@ footer {
   justify-content: center;
   align-items: center;
   height: 20%;
-  background-color: #40aa9e;
+  background-image: linear-gradient(10deg, #3d8ffacb, #31b5c7);
   font-size: 25px;
   font-family: "Poppins", sans-serif;
   color: aliceblue; }
@@ -680,7 +688,7 @@ footer {
   align-items: center;
   text-align: center;
   height: 30%;
-  background-color: #587B7F;
+  background-color: #141c30;
   font-size: 25px;
   font-family: "Poppins", sans-serif;
   color: aliceblue; }
