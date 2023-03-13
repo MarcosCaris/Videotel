@@ -32,6 +32,13 @@
     }
     #main__inicio__productos {
       height: 260%;
+    
+      .tarjeta-producto__boton {
+      border-radius: 5px;
+      border: white solid 1px;
+      width: 38%;
+      height: 10%;
+      }
     }
     .row {
       --bs-gutter-x: 0rem;
