@@ -9,7 +9,7 @@ header {
     height: auto;
     z-index: 50000;
     flex-wrap: nowrap;
-    justify-content: flex-start;
+    justify-content: space-between;
     
     .nav-p {
       font-family: $font-family;
