@@ -48,3 +48,37 @@
       width: 100%;
     }
   }
+  @media (min-width:576px) and (max-width:700px) {
+    .carousel-inner {
+      height: 30%;
+    }
+    #main__inicio__encabezados h1 {
+      font-size: 180%;
+    }
+    #main__inicio__encabezados h2 {
+      font-size: 160%;
+      margin: 5%;
+      text-align: center;
+      justify-content: center;
+    }
+    #main__inicio__video {
+      height: 40%;
+    }
+    #main__inicio__productos {
+      height: 260%;
+    
+      .tarjeta-producto__boton {
+      border-radius: 5px;
+      border: white solid 1px;
+      width: 38%;
+      height: 10%;
+      }
+    }
+    #main__inicio__productos .productos__tarjeta__index {
+      height: 100%;
+      width: 80%;
+    }
+    .row {
+      --bs-gutter-x: 0rem;
+    }
+  }

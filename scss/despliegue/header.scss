@@ -1,11 +1,15 @@
 /*HEADER*/
 
 header {
+  display: flex;
     padding: 5px 2%;
     background-color: #02020285;
     position: sticky;
+    top: 0;
     height: auto;
     z-index: 50000;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
     
     .nav-p {
       font-family: $font-family;

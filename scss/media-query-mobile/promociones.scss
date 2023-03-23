@@ -43,3 +43,123 @@
       margin-bottom: 5%;
     }
   }
+  @media (min-width:576px) and (max-width:680px){
+    .contenedor__productos__promociones{
+      width: 65%;
+      height: 90%;
+      margin-left: 18%;
+      padding: 5%;
+    }
+    #promociones__productos__inferior{
+      height: 70%;
+      width: 100%;
+      margin-bottom: 5%;
+    }
+    #main__promociones__divisor{
+      height: 70%;
+      margin-bottom: 60%;
+    }
+  }
+  @media (min-width:680px) and (max-width:800px){
+    .contenedor__productos__promociones{
+      width: 60%;
+      height: 90%;
+      margin-left: 20%;
+      padding: 5%;
+    }
+    #promociones__productos__inferior{
+      height: 80%;
+      width: 100%;
+      margin-bottom: 5%;
+    }
+    #main__promociones__divisor{
+      height: 70%;
+      margin-bottom: 50%;
+    }
+  }
+  @media (min-width:800px) and (max-width:1000px){
+    .contenedor__productos__promociones{
+      width: 50%;
+      height: 90%;
+      margin-left: 25%;
+      padding: 5%;
+    }
+    #promociones__productos__inferior{
+      height: 80%;
+      width: 100%;
+      margin-bottom: 5%;
+    }
+    #main__promociones__divisor{
+      height: 70%;
+      margin-bottom: 40%;
+    }
+  }
+  @media (min-width:1000px) and (max-width:1200px){
+    .contenedor__productos__promociones{
+      width: 40%;
+      height: 90%;
+      margin-left: 30%;
+      padding: 5%;
+    }
+    #promociones__productos__inferior{
+      height: 80%;
+      width: 100%;
+      margin-bottom: 5%;
+    }
+    #main__promociones__divisor{
+      height: 70%;
+      margin-bottom: 40%;
+    }
+  }
+  @media (min-width:1200px) and (max-width:1325px){
+    .contenedor__productos__promociones{
+      width: 40%;
+      height: 90%;
+      margin-left: 32.5%;
+      padding: 5%;
+    }
+    #promociones__productos__inferior{
+      height: 70%;
+      width: 100%;
+      margin-bottom: 5%;
+    }
+    #main__promociones__divisor{
+      height: 80%;
+      margin-bottom: 25%;
+    }
+  }
+  @media (min-width:1326px) and (max-width:1500px){
+    .contenedor__productos__promociones{
+      width: 35%;
+      height: 90%;
+      margin-left: 32.5%;
+      padding: 5%;
+    }
+    #promociones__productos__inferior{
+      height: 75%;
+      width: 100%;
+      margin-bottom: 5%;
+    }
+    #main__promociones__divisor{
+      height: 80%;
+      margin-bottom: 25%;
+    }
+  }
+  @media (min-width:1500px) and (max-width:1630){
+    .contenedor__productos__promociones{
+      width: 30%;
+      height: 90%;
+      margin-left: 32.5%;
+      padding: 5%;
+    }
+    #promociones__productos__inferior{
+      height: 75%;
+      width: 100%;
+      margin-bottom: 5%;
+    }
+    #main__promociones__divisor{
+      height: 80%;
+      margin-bottom: 30%;
+    }
+  }
+  
