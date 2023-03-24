@@ -11,13 +11,13 @@
       height: 90%;
       width: 99%;
       #promociones__productos__inferior{
-        height: 75%;
+        height: 80%;
         width: 100%;
         margin-bottom: 5%;
       }
     }
     #promociones__productos__superior{
-      height: 70%;
+      height: 80%;
       width: 100%;
     }
     #main__promociones__banner{
@@ -50,8 +50,11 @@
       margin-left: 18%;
       padding: 5%;
     }
+    #promociones__productos__superior{
+      height: 75%;
+    }
     #promociones__productos__inferior{
-      height: 70%;
+      height: 75%;
       width: 100%;
       margin-bottom: 5%;
     }
@@ -66,6 +69,9 @@
       height: 90%;
       margin-left: 20%;
       padding: 5%;
+    }
+    #promociones__productos__superior{
+      height: 80%;
     }
     #promociones__productos__inferior{
       height: 80%;
