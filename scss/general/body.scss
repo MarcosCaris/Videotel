@@ -4,19 +4,19 @@
     box-sizing: border-box;
 }
 body {
-    background-image: linear-gradient(45deg,#1F1A38,#7462ff);
-    background-image: -moz-linear-gradient(45deg,#1F1A38,#7462ff);
-    background-image: -webkit-linear-gradient(45deg,#1F1A38,#7462ff);
-    animation: animate 12s ease-in-out infinite;
+    background-image: linear-gradient(65deg,#52144c9c,#7462ff,#078fff9f);
+    background-size: 400% 400%;
+    animation: animate 20s ease-in-out infinite;
+
 }
 @keyframes animate {
     0%{
-        background-position: 0 50%;
+        background-position: 90% 50%;
     }
     50%{
-        background-position: 100% 50%;
+        background-position: 0% 50%;
     }
     100%{
-        background-position: 0 50%;
+        background-position: 90% 50%;
     }
 }
